@@ -1,7 +1,10 @@
-# test coverage for  [irc (v0.5.2)](https://github.com/martynsmith/node-irc#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-irc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-irc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-irc.svg)](https://travis-ci.org/npmtest/node-npmtest-irc)
+# npmtest-irc
+
+#### test coverage for  [irc (v0.5.2)](https://github.com/martynsmith/node-irc#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-irc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-irc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-irc.svg)](https://travis-ci.org/npmtest/node-npmtest-irc)
+
 #### An IRC client library for node
 
-[![NPM](https://nodei.co/npm/irc.png?downloads=true)](https://www.npmjs.com/package/irc)
+[![NPM](https://nodei.co/npm/irc.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/irc)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-irc/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-irc/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-irc/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-irc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-irc/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-irc/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-irc/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-irc/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-irc/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-irc/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-irc%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-irc/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-irc/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-irc/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-irc/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-irc%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-irc/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-irc/build/test-report.html](https://npmtest.github.io/node-npmtest-irc/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-irc/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-irc/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-irc/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-irc/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-irc/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-irc/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-irc/build/screenCapture.npmPackageListing.svg)
 
@@ -27,44 +36,35 @@
 
 {
     "author": {
-        "name": "Martyn Smith",
-        "email": "martyn@dollyfish.net.nz"
+        "name": "Martyn Smith"
     },
     "bugs": {
         "url": "http://github.com/martynsmith/node-irc/issues"
     },
     "contributors": [
         {
-            "name": "Fionn Kelleher",
-            "email": "me@fionn.co"
+            "name": "Fionn Kelleher"
         },
         {
-            "name": "xAndy",
-            "email": "xandy@hackerspace-bamberg.de"
+            "name": "xAndy"
         },
         {
-            "name": "Mischa Spiegelmock",
-            "email": "revmischa@cpan.org"
+            "name": "Mischa Spiegelmock"
         },
         {
-            "name": "Justin Gallardo",
-            "email": "justin.gallardo@gmail.com"
+            "name": "Justin Gallardo"
         },
         {
-            "name": "Chris Nehren",
-            "email": "cnehren@pobox.com"
+            "name": "Chris Nehren"
         },
         {
-            "name": "Henri Niemeläinen",
-            "email": "aivot-on@iki.fi"
+            "name": "Henri Niemeläinen"
         },
         {
-            "name": "Alex Miles",
-            "email": "ghostaldev@gmail.com"
+            "name": "Alex Miles"
         },
         {
-            "name": "Simmo Saan",
-            "email": "simmo.saan@gmail.com"
+            "name": "Simmo Saan"
         }
     ],
     "dependencies": {
@@ -93,16 +93,13 @@
     "main": "lib/irc",
     "maintainers": [
         {
-            "name": "martyn",
-            "email": "martyn@dollyfish.net.nz"
+            "name": "martyn"
         },
         {
-            "name": "apeiron",
-            "email": "cnehren+npm@pobox.com"
+            "name": "apeiron"
         },
         {
-            "name": "jirwin",
-            "email": "justin.gallardo@gmail.com"
+            "name": "jirwin"
         }
     ],
     "name": "irc",
@@ -110,7 +107,6 @@
         "iconv": "~2.2.1",
         "node-icu-charset-detector": "~0.2.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/martynsmith/node-irc.git"
