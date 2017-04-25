@@ -1,6 +1,6 @@
 # npmtest-irc
 
-#### test coverage for  [irc (v0.5.2)](https://github.com/martynsmith/node-irc#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-irc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-irc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-irc.svg)](https://travis-ci.org/npmtest/node-npmtest-irc)
+#### basic test coverage for  [irc (v0.5.2)](https://github.com/martynsmith/node-irc#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-irc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-irc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-irc.svg)](https://travis-ci.org/npmtest/node-npmtest-irc)
 
 #### An IRC client library for node
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-irc/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-irc/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-irc/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-irc/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-irc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-irc/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-irc/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-irc/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-irc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-irc/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-irc/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-irc/build/coverage.html/index.html)
 
@@ -115,7 +115,8 @@
         "lint": "./node_modules/jscs/bin/jscs --preset=airbnb */*.js",
         "test": "./node_modules/faucet/bin/cmd.js test/test-*.js"
     },
-    "version": "0.5.2"
+    "version": "0.5.2",
+    "bin": {}
 }
 ```
 
